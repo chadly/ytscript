@@ -1,0 +1,23 @@
+{
+	"name": "ytscript",
+	"version": "1.0.0",
+	"description": "A Node.js app to download YouTube transcripts",
+	"main": "index.js",
+	"bin": {
+		"ytscript": "./index.js"
+	},
+	"scripts": {
+		"build": "tsc",
+		"start": "ts-node src/index.ts"
+	},
+	"dependencies": {
+		"yargs": "^17.7.1",
+		"youtube-transcript": "^1.0.5"
+	},
+	"devDependencies": {
+		"@types/node": "^18.15.10",
+		"@types/yargs": "^17.0.23",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.0.2"
+	}
+}
